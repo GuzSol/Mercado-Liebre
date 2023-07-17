@@ -25,29 +25,40 @@ para ello cargar en el html el siguiente código
 
 */
 
+* {
+    font-family: 'Roboto';
+    box-sizing: border-box;
+}
+
 html{
     background-color: #EAC926;
-};
-
-h1,h2,h3,h4,h5,h6,p {
-    font-family: 'Roboto';
 };
 
 p {
     font-size: 12px
 }
-.main-titulo, .footer-titulo {
+
+.h2, .footer-titulo {
     font-size: 24px
 }
+
 .precios {
     font-size: 18px
 }
+
 .descuentos, .descripciones {
     font-size: 16px
 }
+
+.descuentos {
+    color: #39b54a;
+}
+
 .burger-menu {
     color: #ffffff;
     background-color: #1259c3;
+    width: 25px;
+    height: 26px;
     border-radius: 15%;
     display: inline-block;
     padding: 5px;
@@ -58,4 +69,48 @@ p {
 .footer-titulo, .footer-texto {
     text-align: center;
 
+}
+
+main {
+    width: 90vw;
+}
+
+article {
+    padding: 10px
+}
+
+.caja-articulos {
+    background-color: white
+}
+
+.caja-art-precio-desc-descr {
+    border: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+nav {
+    display: none
+}
+/* no se donde está el site para ocultar en version mobile */
+
+
+
+/* tablets */
+@media (min-width:361px) {
+    article: hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
+}
+
+/* desktop */
+@media (min-width:769px) {
+    article: hover {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+    .burger-menu {
+        display: none;
+    }
 }
