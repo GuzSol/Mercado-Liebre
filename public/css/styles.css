@@ -1,3 +1,61 @@
-h1{
-    color: red;
+
+/* Etapa2
+paleta de colores
+Amarillo: #EAC926;
+Azul: #03264C;
+Celeste: #1259c3;
+Gris oscuro: #666;
+Gris claro: #ebebeb;
+Verde: #39b54a;
+
+tipografias
+Familia: 'Roboto'
+
+Tamaños Tipográﬁcos
+Cuerpos de texto: 12px
+Titulares (Basado en tu última visita/Ofertas): 24px
+Precios: 18px
+Descuentos: 16px
+Descripciones: 16px
+
+iconos de este sitio
+https://fontawesome.com/icons?d=gallery&m=free
+para ello cargar en el html el siguiente código
+<link href="https://cdnjs.cloudﬂare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+
+*/
+
+html{
+    background-color: #EAC926;
 };
+
+h1,h2,h3,h4,h5,h6,p {
+    font-family: 'Roboto';
+};
+
+p {
+    font-size: 12px
+}
+.main-titulo, .footer-titulo {
+    font-size: 24px
+}
+.precios {
+    font-size: 18px
+}
+.descuentos, .descripciones {
+    font-size: 16px
+}
+.burger-menu {
+    color: #ffffff;
+    background-color: #1259c3;
+    border-radius: 15%;
+    display: inline-block;
+    padding: 5px;
+    margin-left: 150px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+.footer-titulo, .footer-texto {
+    text-align: center;
+
+}
