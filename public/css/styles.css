@@ -28,7 +28,7 @@ para ello cargar en el html el siguiente código
 * {
     font-family: 'Roboto';
     margin: 0px;
-    padding 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -142,7 +142,7 @@ nav {
 
 /* tablets */
 @media (min-width:361px) {
-    article: hover {
+    article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .burger-menu {
@@ -153,7 +153,7 @@ nav {
 
 /* desktop */
 @media (min-width:769px) {
-    article: hover {
+    article:hover {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .burger-menu {

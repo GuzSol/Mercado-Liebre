@@ -6,8 +6,6 @@
   "scripts": {
     "test": "nodemon src/index.js",
     "start": "node src/index.js"
-    /* "dev": "npx nodemon app",
-    "start": "node.ap" */
   },
   "author": "Guz",
   "license": "ISC",
