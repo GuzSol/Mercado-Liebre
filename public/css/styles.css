@@ -27,6 +27,8 @@ para ello cargar en el html el siguiente código
 
 * {
     font-family: 'Roboto';
+    margin: 0px;
+    padding 0px;
     box-sizing: border-box;
 }
 
@@ -88,10 +90,53 @@ article {
     padding: 15px;
 }
 
+.mismo-renglon {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.precios {
+    width: 30%;
+}
+.descuentos {
+    width: 70%
+}
+
 nav {
     display: none
 }
 /* no se donde está el site para ocultar en version mobile */
+
+/* no entiendo qué pide
+    main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+} */
+
+.img-home {
+    display: flex;
+    max-width: 100%;
+}
+
+.logo-buscador {
+    display: flex;
+}
+.logo {
+    width: 50vw;
+}
+.buscador {
+    width: 50vw;
+}
 
 
 
@@ -103,6 +148,7 @@ nav {
     .burger-menu {
         display: none;
     }
+
 }
 
 /* desktop */

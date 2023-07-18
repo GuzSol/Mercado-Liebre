@@ -3,9 +3,60 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
+    <script src="../app.js"></script>
+    <link rel="stylesheet" href="/css/login.css">
 </head>
 <body>
-    
+    <header>
+        <div>
+            <img src="/images/logo-mercado-liebre.svg" alt="logo" width="200px">
+            <div>
+                <form action="resultado.html" method="POST">
+                    <input class="search-bar" type="text" name="buscar" id="buscar" placeholder="Buscar productos, marcas ">
+                    <div class="lupita"> <i class="fa-solid fa-magnifying-glass"></i></div>
+                </form>
+            </div>
+            <P>Comprá en cuotas y sin tarjeta de crédito</P>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="">Ofertas</a></li>
+                <li><a href="">Tiendas Oficiales</a></li>
+                <li><a href="">Vender</a></li>
+                <li><a href="">Ayuda</a></li>
+            </ul>
+            <ul>
+                <li><a href="register">Creá tu cuenta</a></li>
+                <li><a href="#">Ingresá</a></li>
+                <li><a href="#">Mis compras</a></li>
+            </ul>
+        </nav>
+        <div class="burger-menu">
+            <i class="fas fa-bars"></i>
+        </div>
+
+    </header>
+
+    <main>
+        <section >
+            <form action="/login" method="POST">
+                <div>
+                    <input name="nombredeusario" id="nombredeusuario" placeholder="Nombre de usuario">
+                </div>
+                <div>
+                    <input type="texto" name="elegitucontraseña" id="elegitucontraseña"
+                        placeholder="Elegí tu contraseña">
+                </div>
+                
+                <a href="https://mliebre-ss.onrender.com/"><input class="enviar" type="submit" value="Enviar"></a>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <section></section>
+    </footer>
 </body>
 </html>
