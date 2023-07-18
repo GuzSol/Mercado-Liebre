@@ -1,11 +1,13 @@
 {
   "name": "m4-mercado-liebre",
   "version": "1.0.0",
-  "description": "",
+  "description": "ejercicio",
   "main": "app.js",
   "scripts": {
-    "dev": "npx nodemon app",
-    "start": "node.ap"
+    "test": "nodemon src/index.js",
+    "start": "node src/index.js"
+    /* "dev": "npx nodemon app",
+    "start": "node.ap" */
   },
   "author": "Guz",
   "license": "ISC",
